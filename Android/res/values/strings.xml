@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_help">Help</string>
+    <string name="menu_report_bug">Report Bug</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_login">Login</string>
+    <string name="about_message">This application was created by Donn Felker of Agilevent for TekPub for the Introduction to Android series on TekPub.com</string>
+    <string name="about">About</string>
+    <string name="refresh">Refresh</string>
+    <string name="cannot_connect_to_api_message">Could not connect to TekPub server. Would you like to try again? </string>
+    <string name="download_failed_title">Download Failed</string>
+    <string name="download_file_not_found_message">The file was not found on the server</string>
+    <string name="header_separator">Productions</string>
+    <string name="app_name">TekPub</string>
+	<string name="episode_header_separator">Episodes</string>
+	<string name="video_category_details_separator">Details</string>
+	<string name="loading_message">Loading ...</string>
+	
+	<string name="download">Download</string>
+	<string name="watch">Watch</string>
+	<string name="unavailable">Why can\'t I watch it?</string>
+	
+	<string name="ok_button_text">Ok</string>
+	
+	<string name="episode_unavailable_title">Episode Unavailable</string>
+	<string name="episode_unavailable_message">To view this episode you must be a member of TekPub, have purchased this series (or yearly subscription) and be currently logged into the TekPub application.</string>
+	<string name="episode_unavailable_login">Login</string>
+	<string name="episode_unavailable_close">Close</string>
+	
+	<string name="feature_unavailable_message">This feature is not available at this time.</string>
+	<string name="sdcard_space_unavailable">You do not have enough free space on your external storage device to download this episode.</string>
+
+<string name="download_episode_ticker_format">Downloading %</string>
+<string name="download_complete_format">Episode: % has been Downloaded</string>
+<string name="generic_alert_dialog_title">Attention!</string>
+<string name="ACCOUNT_TYPE">com.tekpub</string>
+<string name="AUTH_TOKEN_TYPE">default</string>
+<string name="prefs_cat_about_title">About</string>
+<string name="prefs_tos_title">TOS</string>
+<string name="prefs_privacy_title">Privacy Policy</string>
+<string name="prefs_version_title">Version</string>
+<string name="main_username">Email</string>
+<string name="main_password">Password</string>
+<string name="main_login">Login</string>
+<string name="main_new_account">Don\'t have an account?</string>
+<string name="main_signup">Signup</string>
+<string name="one_account_only">Only one TekPub account is supported!</string>
+<string name="login_prefs">login_preferences_key</string>
+<string name="auth_token">auth_token_key</string>
+<string name="login_invalid">The email or password you entered is incorrect.</string>
+<string name="video_not_found">Cannot find this video.</string>
+<string name="video_unauthorized">You are not authorized to view this video.</string>
+<string name="play_video_with">Play video with:</string>
+<string name="login_query_title">Login</string>
+<string name="login_query_message">If you have a TekPub account, please select Login to access your subscriptions. \n\nIf you do not have a TekPub account you can browse the catalog by selecting No.\n\nDo you have a TekPub account?</string>
+<string name="login_query_positive_button">Yes, Login</string>
+<string name="login_query_negative_button">No, Skip</string>
+<string name="logging_out_message">Logging you out ...</string>
+<string name="exception_logout_title">Logout Issue Encountered</string>
+<string name="confirmation_title">Are you sure?</string>
+<string name="chooser_open_help_with">Open Help With</string>
+</resources>

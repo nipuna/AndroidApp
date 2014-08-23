@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dip"
+    >
+    <TextView
+		android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="My Application"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/category_name_color"
+         />
+   <TextView  
+        android:id="@+id/details_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:maxLines="2" 
+        android:layout_below="@+id/label"
+        android:ellipsize="end"
+        android:text="Simple application that shows how to use RelativeLayout. Simple application that shows how to use RelativeLayout. " />
+</RelativeLayout>

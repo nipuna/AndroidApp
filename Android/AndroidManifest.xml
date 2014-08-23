@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.tekpub.player"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:debuggable="false" android:name="com.tekpub.app.TekPub" android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".SplashActivity" android:label="@string/app_name"
+			android:noHistory="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".VideoListActivity" ></activity>
+		<activity android:name=".VideoActivity"></activity>
+		<activity android:name=".AccountFailActivity"></activity>
+		<activity android:name=".LoginActivity" android:noHistory="true"></activity>
+		<activity android:name=".Preferences"></activity>
+    	<service android:name="com.tekpub.services.DownloadEpisodeService"></service>
+    	<service android:name="com.tekpub.authenticator.AccountAuthenticatorService"
+			android:exported="true" android:process=":auth">
+			<intent-filter>
+				<action android:name="android.accounts.AccountAuthenticator" />
+			</intent-filter>
+			<meta-data android:name="android.accounts.AccountAuthenticator"
+				android:resource="@xml/authenticator" />
+		</service>
+</application>
+
+	
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+	<uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.USE_CREDENTIALS" />
+	
+	<uses-sdk android:minSdkVersion="7"></uses-sdk>
+<uses-permission android:name="android.permission.MANAGE_ACCOUNTS"></uses-permission>
+</manifest> 
